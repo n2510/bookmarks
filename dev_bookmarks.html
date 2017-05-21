@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang = "de">
+<head>
+  <meta charset="utf-8">
+  <title>Bookmarks</title>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
+
+  <style type="text/css">
+  div, nav {
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  .type {
+    width: 50%;
+    float: left;
+  }
+
+  body {
+    font-family: 'Fira Mono', monaco, monospace;
+    font-size: 1.5em;
+    background-color: #eee;
+  }
+
+  nav a {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #A5BECB;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  nav a:hover {
+    background-color: #888;
+    color: #fff;
+    border: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #527e90;
+  }
+  a:hover {
+    color: #888;
+  }
+
+  #container {
+    width: 800px;
+    margin: auto;
+  }
+
+  #bookmarks {
+    border-top: 2px dashed #888;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  </style>
+</head>
+
+<body>
+  <div id="container">
+
+  <h1>Bookmarks</h1>
+
+  <nav>
+    <a href="#dev">dev</a>
+    <a href="#ruby">ruby</a>
+    <a href="#rails">rails</a>
+    <a href="#gems">gems</a>
+    <br>
+    <a href="#css">html & css</a>
+    <a href="#javascript">javascript</a>
+    <a href="#ideas">ideas</a>
+  </nav>
+
+  <div id="bookmarks">
+
+  <div class="type">
+    <h2 id="dev">Dev</h2>
+    <p>
+      <ul>
+        <li><a href="https://devdocs.io/">DevDocs</a></li>
+        <li><a href="https://docs.emmet.io/cheat-sheet/">Emmet Cheatsheet</a></li>
+        <li><a href="http://www.rubular.com/">Rubular Regex</a></li>
+        <li><a href="https://www.dict.cc/">dict.cc</a></li>
+        <li><a href="https://stackoverflow.com/">stackoverflow</a></li>
+      </ul>
+    </p>
+  </div>
+
+  <div class="type">
+    <h3 id="ruby">Ruby</h3>
+    <p>
+      <ul>
+        <li><a href="http://ruby-doc.org/core-2.4.1/">Ruby 2.4.1 Core</a></li>
+        <li><a href="http://ruby-doc.org/stdlib-2.4.1/">Ruby 2.4.1 Library</a></li>
+        <li><a href="http://www.zenspider.com/ruby/quickref.html">Ruby Quickref</a></li>
+        <li><a href="https://github.com/bbatsov/ruby-style-guide">Ruby style guide</a></li>
+        <li><a href="http://www.rubyist.net/~slagell/ruby/index.html">Ruby user's guide</a></li>
+        <li><a href="https://medium.com/the-renaissance-developer/idiomatic-ruby-1b5fa1445098">idiomatic ruby</a></li>
+      </ul>
+    </p>
+  </div>
+
+  <div class="type">
+    <h3 id="rails">Rails</h3>
+    <p>
+      <ul>
+        <li><a href="http://railscasts.com/">Railscasts</a></li>
+        <li><a href="http://guides.rubyonrails.org/">Ruby on Rails Guides</a></li>
+        <li><a href="http://api.rubyonrails.org/">Ruby on Rails API</a></li>
+        <li><a href="https://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf">rspec cheatsheet</a></li>
+        <li><a href="http://www.betterspecs.org/">betterspecs</a></li>
+      </ul>
+    </p>
+  </div>
+
+  <div class="type">
+    <h3 id="gems">Gems</h3>
+    <p>
+      <ul>
+        <li><a href="https://rubygems.org/">RubyGems</a></li>
+        <li><a href="https://github.com/plataformatec/simple_form">simple form</a></li>
+        <li><a href="https://github.com/moiristo/deep_cloneable">deep clonable</a></li>
+        <li><a href="https://github.com/carrierwaveuploader/carrierwave">carrierwave</a></li>
+        <li><a href="http://chartkick.com/">chartkick</a></li>
+      </ul>
+    </p>
+  </div>
+
+  <div class="type">
+    <h3 id="css">HTML & CSS</h3>
+    <p>
+      <ul>
+        <li><a href="http://cssreference.io/">CSS Reference</a></li>
+        <li><a href="http://www.awwwards.com/the-best-css3-tools-experiments-and-demos-for-web-developers.html">Awwwards</a></li>
+        <li><a href="https://www.learnenough.com/css-and-layout-tutorial">CSS Dangerous</a></li>
+        <li><a href="https://www.smashingmagazine.com/2017/05/fluid-responsive-typography-css-poly-fluid-sizing/">Fluid Typography</a></li>
+        <li><a href="http://htmlarrows.com/">HTML Symbols</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/Learn/HTML">MDN</a></li>
+      </ul>
+    </p>
+  </div>
+
+  <div class="type">
+    <h3 id="javascript">JavaScript</h3>
+    <p>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">MDN JavaScript</a></li>
+        <li><a href="https://jqueryui.com/">jQuery UI</a></li>
+        <li><a href="http://manos.malihu.gr/">malihu</a></li>
+        <li><a href="http://masonry.desandro.com/">masonry</a></li>
+        <li><a href="http://wps.aw.com/wps/media/objects/2234/2287950/javascript_refererence.pdf">js reference card</a></li>
+        <li><a href="http://coffeescript.org/">coffeescript</a></li>
+      </ul>
+    </p>
+  </div>
+
+  <div class="type">
+    <h3 id="ideas">Ideas</h3>
+    <p>
+      <ul>
+        <li><a href="https://land-book.com/">Land-book</a></li>
+        <li><a href="https://www.siteinspire.com/">SiteInspire</a></li>
+        <li><a href="http://www.calltoidea.com/">Calltoidea</a></li>
+        <li><a href="http://www.color-hex.com/">Color Hex</a></li>
+        <li><a href="https://www.design-seeds.com/blog/">Design Seeds</a></li>
+        <li><a href="https://getbootstrap.com/getting-started/">Bootstrap</a></li>
+        <li><a href="https://fonts.google.com/">google fonts</a></li>
+        <li><a href="http://www.digitaloperative.com/blog/2013/7-css-web-safe-fonts-for-anything-and-everything/">standard fonts</a></li>
+      </ul>
+    </p>
+  </div>
+
+  </div>
+  <!-- :bookmarks-->
+
+  </div>
+  <!-- :container -->
+</body>
+</html>
